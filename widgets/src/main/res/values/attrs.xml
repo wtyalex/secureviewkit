@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- banner indicator -->
+    <declare-styleable name="BannerIndicatorView">
+        <!-- 显示多少个 indicator -->
+        <attr name="indicator_count" format="integer" />
+        <!-- indicator 宽高 -->
+        <attr name="indicator_select_width" format="dimension" />
+        <attr name="indicator_select_height" format="dimension" />
+        <attr name="indicator_normal_width" format="dimension" />
+        <attr name="indicator_normal_height" format="dimension" />
+        <!-- indicator 之间边距 -->
+        <attr name="indicator_margins" format="dimension" />
+        <!-- indicator 颜色 -->
+        <attr name="indicator_select_color" format="reference" />
+        <attr name="indicator_normal_color" format="reference" />
+
+    </declare-styleable>
+
+    <attr name="isDragAble" format="boolean|reference" />
+    <attr name="borderColor" format="color|reference" />
+    <declare-styleable name="DragLayout">
+        <attr name="dragRadius" format="dimension|reference" />
+        <attr name="dragColor" format="color|reference" />
+        <attr name="isDragAble" />
+        <attr name="borderColor" />
+        <attr name="selectedColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ReceiveView">
+        <attr name="areaRadius" format="dimension|reference" />
+        <attr name="areaColor" format="color|reference" />
+        <attr name="selectedAreaColor" format="color|reference" />
+        <attr name="borderColor" />
+        <attr name="conflictColor" format="color|reference" />
+        <attr name="xAxisTextColor" format="color|reference" />
+        <attr name="xAxisTextSize" format="dimension|reference" />
+        <attr name="axisWidth" format="dimension|reference" />
+        <attr name="xAxisTickMarkHeight" format="dimension|reference" />
+        <attr name="xAxisTickMarkColor" format="color|reference" />
+        <attr name="axisColor" format="color|reference" />
+        <attr name="warningColor" format="color|reference" />
+        <attr name="warningWidth" format="dimension|reference" />
+        <attr name="isDragAble" />
+    </declare-styleable>
+    <declare-styleable name="SeekBarView">
+        <attr name="radius" format="dimension|reference" />
+        <attr name="textSize" format="dimension|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="borderColor" />
+        <attr name="progressColor" format="color|reference" />
+        <attr name="borderPadding" format="dimension|reference" />
+    </declare-styleable>
+    <declare-styleable name="SwipeItemLayout.Layout">
+        <attr name="layout_itemType">
+            <flag name="main" value="0x01" />
+            <flag name="menu" value="0x02" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbMargin" format="dimension|reference" />
+        <attr name="kswThumbMarginTop" format="dimension|reference" />
+        <attr name="kswThumbMarginBottom" format="dimension|reference" />
+        <attr name="kswThumbMarginLeft" format="dimension|reference" />
+        <attr name="kswThumbMarginRight" format="dimension|reference" />
+        <attr name="kswThumbWidth" format="dimension|reference" />
+        <attr name="kswThumbHeight" format="dimension|reference" />
+        <attr name="kswThumbRadius" format="dimension|reference" />
+        <attr name="kswBackRadius" format="dimension|reference" />
+        <attr name="kswBackDrawable" format="reference" />
+        <attr name="kswBackColor" format="color|reference" />
+        <attr name="kswFadeBack" format="boolean" />
+        <attr name="kswThumbRangeRatio" format="float" />
+        <attr name="kswAnimationDuration" format="integer" />
+        <attr name="kswTintColor" format="color|reference" />
+        <attr name="kswTextOn" format="string" />
+        <attr name="kswTextOff" format="string" />
+        <attr name="kswTextThumbInset" format="dimension" />
+        <attr name="kswTextExtra" format="dimension" />
+        <attr name="kswTextAdjust" format="dimension" />
+    </declare-styleable>
+
+</resources>

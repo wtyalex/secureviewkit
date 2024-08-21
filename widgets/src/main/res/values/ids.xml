@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="drag_from_container" type="id" />
+    <item name="drag_from_child_view" type="id" />
+    <item name="drag_receive_container" type="id" />
+    <item name="drag_target_data" type="id" />
+</resources>
